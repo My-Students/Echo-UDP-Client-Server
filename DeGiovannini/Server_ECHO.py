@@ -11,7 +11,7 @@ bufferSize = 1024
 #Creazione del Socket Client 
 socketServer = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 socketServer.bind((ip, porta))
-print("il signor Server la puo' riceverla")
+print("il signor Server la puo' ricevere")
 
 #Fase di Ascolto 
 while(True):
