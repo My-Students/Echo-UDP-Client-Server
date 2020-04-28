@@ -24,5 +24,5 @@ while(True):
     print(msgClient)
     print(ipClient)
 
-    #Messaggio ECHO al signor client 
+    #Messaggio ECHO al signor Client 
     socketServer.sendto(msgC, address)
