@@ -15,6 +15,6 @@ socketClient = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 #Mandare un msg al signor Server 
 socketClient.sendto(bytesSend, porta)
 msgPerServer = socketClient.recvfrom(bufferSize)
-msg = "Messaggio dal signor Server {}".format(msgPerServer[0])
+msg = "Messaggio per il signor Server {}".format(msgPerServer[0])
 
 print(msg)
